@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+/* full header */
+.full-header {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    z-index: 1px;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 64px;
+    background-color: #E21B70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.header .header-2 {
+    margin: 0px 20px 0px 20px;
+
+}
+
+.header .img {
+    height: 63px;
+    width: 75px;
+}
+
+.header .head1 {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.header .button {
+    font-size: 14px;
+    padding: 15px 13px;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.header .button:hover {
+    background-color: #ffffff;
+    color: #E21B70;
+}
+
+/* Navbar */
+.navbar {
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left-side img {
+    height: 46px;
+    width: 160px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+}
+
+.navbar .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-side .buttons,
+.inner-div,
+.cart {
+    margin-right: 45px;
+}
+
+.navbar .right-side .btn {
+    height: 33px;
+    border-radius: 7px;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+.navbar .right-side .btn:hover {
+    height: 39px;
+    width: 85px;
+}
+
+.navbar .right-side .login {
+    width: 73px;
+    background-color: #ffffff;
+    color: #E21B70;
+    border: 2px solid #E21B70;
+}
+
+.navbar .right-side .signup {
+    width: 81px;
+    background-color: #E21B70;
+    color: #ffffff;
+    border: 2px solid #E21B70;
+}
+
+.navbar .right-side .inner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .right-side .inner-div .first {
+    width: 35px;
+    height: 36;
+    font-size: 15px;
+    border-style: none;
+}
+
+.navbar .right-side .inner-div .first select {
+    padding: 7px;
+    border-style: none;
+    color: #E21B70;
+    font-size: 1rem;
+    border: 2px solid #f2b5cf;
+    border-radius: 10px;
+}
+
+.navbar .right-side .inner-div .first select:hover {
+    background-color: #ede8e8;
+    border-radius: 10px;
+}
+
+.navbar .right-side .inner-div .second i {
+    position: absolute;
+    margin-right: 20px;
+    padding-left: -14px;
+    margin-top: -8px;
+}
+
+.navbar .right-side .cart i {
+    margin-right: 70px;
+    color: #E21B70;
+    font-size: 1.3rem;
+    margin-left: 45px;
+}
+
+/* main hero image section */
+.main {
+    width: auto;
+    height: 725px;
+    background-color: rgba(234, 238, 239, 0.979);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.main .description {
+    margin-left: 90px;
+    width: 690px;
+    height: 250px;
+    margin-top: 170px;
+}
+
+.main .description .inner-div1 p {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.main .description .find-food {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 735px;
+    height: 66px;
+    background-color: #ffffff;
+    padding: 0px 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.main .description .find-food .hero-input input {
+    height: 48px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #cbcaca;
+}
+
+.main .description .find-food .hero-icon span {
+    margin-left: -145px;
+    padding: 10px;
+    color: #E21B70;
+    font-size: 1rem;
+    font-weight: 520;
+}
+
+.main .description .find-food .hero-icon span i {
+    margin-right: 6px;
+}
+
+.main .description .find-food .btn button {
+    height: 48px;
+    width: 95px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #E21B70;
+    color: #ffffff;
+    border: 2px solid #E21B70;
+}
+
+.main .description .find-food .btn button:hover {
+    height: 50px;
+    width: 100px;
+}
+
+.main img {
+    margin-top: 122px;
+    background-size: contain;
+    margin-left: -15px;
+}
+
+/* body content section */
+.getstarted {
+    width: 100%;
+    margin-top: 90px;
+    height: 404px;
+
+
+}
+
+.getstarted h2 {
+    color: #000000;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.getstarted .bg-image {
+    background-image: url("./images/bodysection-hero\ img.webp");
+    height: 404px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.getstarted .upper-box {
+    width: 558px;
+    height: 367;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: -160px 140px;
+    box-shadow: 4px 12px 20px -7px rgba(66, 68, 90, 1);
+}
+
+.getstarted .upper-box h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
+
+.getstarted .upper-box p {
+    color: #000000;
+    font-size: 18px;
+    margin: 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.getstarted .upper-box .btn {
+    width: 120px;
+    background-color: #E21B70;
+    color: #ffffff;
+    border: 2px solid #E21B70;
+    height: 42px;
+    border-radius: 7px;
+    margin-left: 30px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* images section  */
+.city-images {
+    margin-top: 349px;
+    padding: 25px 33px;
+}
+
+.city-images h2 {
+    color: #333333;
+    font-size: 36px;
+    margin-left: 110px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.city-images .div {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin: 45px 0px;
+
+
+}
+
+.city-images .div .img1 {
+    border-radius: 15px;
+    width: 308px;
+    height: 302px;
+    /* padding: 8px; */
+    margin: 0px 25px;
+    z-index: -1;
+}
+
+.city-images .div .img1 img {
+    width: 335px;
+    height: 307px;
+    padding: 8px;
+    border-radius: 37px;
+}
+
+.city-images .div .img1 button {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #ffffff;
+    height: 42px;
+    border-radius: 13px;
+    margin-top: -70px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+/* mobile phone section */
+.mobile {
+    margin: 10px 60px;
+}
+
+.mobile h2 {
+    font-size: 34px;
+    color: #333333;
+    margin: 0px 0px 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.mobile .bg-div {
+    display: flex;
+    align-items: center;
+    background-color: #E21B70;
+    padding: 28px opx 28px 32px;
+    height: 355px;
+    border-radius: 18px;
+}
+
+.mobile .bg-div .describe {
+    width: 570px;
+}
+
+.mobile .bg-div .describe h3 {
+    font-size: 26px;
+    color: #ffffff;
+    padding: 26px 20px;
+    font-weight: 400;
+    margin-top: -60px;
+}
+
+.mobile .bg-div .describe .inner-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.mobile .bg-div .describe .inner-des img {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    width: 70px;
+    height: 70px;
+    margin-right: 8px;
+}
+
+.mobile .bg-div .describe .inner-des p {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.mobile .bg-div .describe .inner-img {
+    padding: 15px 20px;
+}
+
+.mobile .bg-div .img-div img {
+    height: 468px;
+    width: 580px;
+    margin-left: 10px;
+}
+
+/* last hero image of body */
+.last-heroimg {
+    width: 100%;
+    margin-top: 90px;
+    height: 404px;
+    margin-bottom: 80px;
+}
+
+.last-heroimg h2 {
+    color: #000000;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.last-heroimg .bg-image {
+    background-image: url("./images/buisness-img.webp");
+    height: 404px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.last-heroimg .upper-box {
+    width: 550px;
+    height: 300;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* position: absolute; */
+    margin: -160px 140px;
+    /* margin-bottom: -120px; */
+    box-shadow: 4px 12px 20px -7px rgba(66, 68, 90, 1);
+}
+
+.last-heroimg .upper-box h2 {
+    font-size: 23px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+}
+
+.last-heroimg .upper-box p {
+    color: #000000;
+    font-size: 16px;
+    margin: 15px 14px;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.last-heroimg .upper-box .btn {
+    width: 120px;
+    background-color: #E21B70;
+    color: #ffffff;
+    border: 2px solid #E21B70;
+    height: 42px;
+    border-radius: 7px;
+    margin-left: 30px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* paragrapgh section */
+.para {
+    margin: 90px 70px;
+    margin-top: 200px;
+
+}
+
+.para hr {
+    margin: 30px 10px;
+    color: #333333;
+}
+
+.para h2 {
+    color: #333333;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.para p {
+    color: #333333;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.para .div-para {
+    color: #333333;
+}
+
+.para .div-para li {
+    list-style-type: none;
+}
+
+/* Footer section */
+
+.footer hr {
+    margin: 20px 20px;
+    color: #333333;
+}
+
+.footer .single-line {
+    margin: 10px 25px;
+    color: #333333;
+    text-align: center;
+}
+
+.footer .foot-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .foot-div .div1 img {
+    width: 120px;
+    height: 64px;
+}
+
+.footer .foot-div .div1 li {
+    color: #E21B70;
+    margin: 20px;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo img {
+    width: 120px;
+    height: 64px;
+    margin: 60px 30px;
+}
